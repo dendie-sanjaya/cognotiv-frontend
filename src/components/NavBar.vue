@@ -13,7 +13,7 @@
           <router-link to="/register">Register</router-link>
         </li>
         <li class="hover:text-blue-500 cursor-pointer px-4">
-          <router-link to="/login">Login / Logout</router-link>
+          <router-link to="/login">Login</router-link>
         </li>
       </ul>
     </nav>
