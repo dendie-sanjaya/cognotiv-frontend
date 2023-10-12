@@ -35,9 +35,10 @@
         </p>
         <p class="mb-4 leading-relaxed">
           {{ post.publish_date }}
+          {{ post.id }}
         </p>
 
-        <router-link to="/belog/detail?id={{id: post.id}}"  class="inline-flex items-center md:mb-2 lg:mb-0 hover:text-blue-400">Read More</router-link>
+        <router-link :to="'/blog/detail/' + post.id"  class="inline-flex items-center md:mb-2 lg:mb-0 hover:text-blue-400">Read More</router-link>
       </div>
   
            
